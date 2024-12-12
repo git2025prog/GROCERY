@@ -76,3 +76,57 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+
+
+/* General styling for the section */
+#hours.section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the heading */
+#hours h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Table styling */
+#hours table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* Table header styling */
+#hours table thead th {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+/* Table body styling */
+#hours table tbody td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Alternating row colors for better readability */
+#hours table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+#hours table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
